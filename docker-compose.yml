@@ -1,0 +1,7 @@
+################ MongoDB ################
+mongodb:
+  build: ./mongodb
+  environment:
+   MONGODB_ADMIN_PASS: admin
+  ports:
+   - "27017:27017"
